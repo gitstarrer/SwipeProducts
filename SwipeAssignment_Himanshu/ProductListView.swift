@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  ProductListView.swift
 //  SwipeAssignment_Himanshu
 //
 //  Created by Himanshu Gupta on 05/04/24.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct ProductListView: View {
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -20,5 +20,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    ProductListView()
 }
