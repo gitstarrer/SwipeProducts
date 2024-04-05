@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		92AC7EFA2BBF7FAF0035276A /* SwipeAssignment_HimanshuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AC7EF92BBF7FAF0035276A /* SwipeAssignment_HimanshuApp.swift */; };
-		92AC7EFC2BBF7FAF0035276A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AC7EFB2BBF7FAF0035276A /* ContentView.swift */; };
+		92AC7EFC2BBF7FAF0035276A /* ProductListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AC7EFB2BBF7FAF0035276A /* ProductListView.swift */; };
 		92AC7EFE2BBF7FB00035276A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92AC7EFD2BBF7FB00035276A /* Assets.xcassets */; };
 		92AC7F012BBF7FB00035276A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92AC7F002BBF7FB00035276A /* Preview Assets.xcassets */; };
+		92AC7F082BBF90B90035276A /* AddProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AC7F072BBF90B90035276A /* AddProductView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		92AC7EF62BBF7FAF0035276A /* SwipeAssignment_Himanshu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeAssignment_Himanshu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92AC7EF92BBF7FAF0035276A /* SwipeAssignment_HimanshuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeAssignment_HimanshuApp.swift; sourceTree = "<group>"; };
-		92AC7EFB2BBF7FAF0035276A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		92AC7EFB2BBF7FAF0035276A /* ProductListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListView.swift; sourceTree = "<group>"; };
 		92AC7EFD2BBF7FB00035276A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92AC7F002BBF7FB00035276A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		92AC7F072BBF90B90035276A /* AddProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				92AC7EF92BBF7FAF0035276A /* SwipeAssignment_HimanshuApp.swift */,
-				92AC7EFB2BBF7FAF0035276A /* ContentView.swift */,
+				92AC7EFB2BBF7FAF0035276A /* ProductListView.swift */,
+				92AC7F072BBF90B90035276A /* AddProductView.swift */,
 				92AC7EFD2BBF7FB00035276A /* Assets.xcassets */,
 				92AC7EFF2BBF7FB00035276A /* Preview Content */,
 			);
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92AC7EFC2BBF7FAF0035276A /* ContentView.swift in Sources */,
+				92AC7F082BBF90B90035276A /* AddProductView.swift in Sources */,
+				92AC7EFC2BBF7FAF0035276A /* ProductListView.swift in Sources */,
 				92AC7EFA2BBF7FAF0035276A /* SwipeAssignment_HimanshuApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -9,13 +9,44 @@ import SwiftUI
 
 struct ProductListView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationView{
+            List(0 ..< 5) { item in
+                VStack {
+                    HStack {
+                        Image(systemName: "rainbow")
+                            .resizable()
+                            .scaledToFit()
+                            .frame(height: 70)
+                            .cornerRadius(5)
+                        
+                        VStack(alignment: .leading, spacing: 5){
+                            Text("This is a rainbow")
+                                .fontWeight(.semibold)
+                                .lineLimit(2)
+                            .minimumScaleFactor(0.7)
+                            
+                            Text("Product type")
+                                .font(.subheadline)
+                                .foregroundStyle(.secondary)
+                            
+                            HStack{
+                                Text("Price: 0090")
+                                    .font(.subheadline)
+                                
+                                Spacer()
+                                
+                                Text("Tax: 09iu")
+                                    .font(.subheadline)
+                                    .lineLimit(1)
+                            }
+                        }
+                        
+                    }
+                }
+                .padding(.vertical, 5)
+            }
+            .navigationTitle("Swipe Products")
         }
-        .padding()
     }
 }
 

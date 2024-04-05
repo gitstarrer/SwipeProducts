@@ -11,7 +11,7 @@ import SwiftUI
 struct SwipeAssignment_HimanshuApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ProductListView()
         }
     }
 }
